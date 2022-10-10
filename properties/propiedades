@@ -1,0 +1,5 @@
+platformName= Android
+deviceName= ZY323T7B2G
+platformVersion= 9	
+noReset= true
+autoGrantPermissions= true

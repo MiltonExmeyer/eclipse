@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-06T10:49:35 COT" name="Suite" finished-at="2022-10-06T10:50:12 COT" duration-ms="37229">
+    <groups>
+    </groups>
+    <test started-at="2022-10-06T10:49:35 COT" name="Test" finished-at="2022-10-06T10:50:12 COT" duration-ms="37229">
+      <class name="run.Run">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:run.Run@498d318c]" started-at="2022-10-06T10:49:35 COT" name="beforeClass" finished-at="2022-10-06T10:49:35 COT" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[./imagenes/logo.png]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[./imagenes/logoTools.png]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[./imagenes/calculadora.png]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ZY323T7B2G]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[./output]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="calculadora(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:run.Run@498d318c]" started-at="2022-10-06T10:49:35 COT" name="calculadora" data-provider="calculadora" finished-at="2022-10-06T10:50:12 COT" duration-ms="36421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.google.android.calculator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.android.calculator2.Calculator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[más]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9875]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculadora -->
+        <test-method signature="seleccionarPrimerProducto(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:run.Run@498d318c]" started-at="2022-10-06T10:50:12 COT" name="seleccionarPrimerProducto" data-provider="datosMercLibrePro" finished-at="2022-10-06T10:50:12 COT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.mercadolibre.com.pe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.android.chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.google.android.apps.chrome.Main]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[silla]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[milton]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[guzman]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[registro@cbit.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[periferia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleccionarPrimerProducto -->
+        <test-method signature="crearCuenta(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:run.Run@498d318c]" started-at="2022-10-06T10:50:12 COT" name="crearCuenta" data-provider="datosMercLibreCu" finished-at="2022-10-06T10:50:12 COT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.mercadolibre.com.pe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.android.chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.google.android.apps.chrome.Main]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[milton]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[guzman]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[registro@cbit.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[periferia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crearCuenta -->
+        <test-method signature="alertTools(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:run.Run@498d318c]" started-at="2022-10-06T10:50:12 COT" name="alertTools" data-provider="datosToolsAlerts" finished-at="2022-10-06T10:50:12 COT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.android.chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.google.android.apps.chrome.Main]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hoy trasnoche]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertTools -->
+        <test-method signature="dateTools(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:run.Run@498d318c]" started-at="2022-10-06T10:50:12 COT" name="dateTools" data-provider="datosToolsDate" finished-at="2022-10-06T10:50:12 COT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.android.chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.google.android.apps.chrome.Main]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateTools -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:run.Run@498d318c]" started-at="2022-10-06T10:50:12 COT" name="afterClass" finished-at="2022-10-06T10:50:12 COT" duration-ms="63" status="FAIL">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PE-HO-012', ip: '192.168.10.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, autoGrantPermissions: true, deviceName: ZY323T7B2G, noReset: true, platformName: android, platformVersion: 9}, deviceApiLevel: 28, deviceManufacturer: motorola, deviceModel: moto g(7) power, deviceName: ZY323T7B2G, deviceScreenDensity: 272, deviceScreenSize: 720x1520, deviceUDID: ZY323T7B2G, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 1.7, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 45, takesScreenshot: true, viewportRect: {height: 1368, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: edc5c942-2ff5-4e31-aa33-6da07ae2639a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PE-HO-012', ip: '192.168.10.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, autoGrantPermissions: true, deviceName: ZY323T7B2G, noReset: true, platformName: android, platformVersion: 9}, deviceApiLevel: 28, deviceManufacturer: motorola, deviceModel: moto g(7) power, deviceName: ZY323T7B2G, deviceScreenDensity: 272, deviceScreenSize: 720x1520, deviceUDID: ZY323T7B2G, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 1.7, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 45, takesScreenshot: true, viewportRect: {height: 1368, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: edc5c942-2ff5-4e31-aa33-6da07ae2639a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at run.Run.afterClass(Run.java:333)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- run.Run -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="rutaImagenReporteMercLibre" value="./imagenes/logo.png"/>
+  <parameter name="rutaImagenReporteTools" value="./imagenes/logoTools.png"/>
+  <parameter name="rutaImagenReporteCalculadora" value="./imagenes/calculadora.png"/>
+  
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="ZY323T7B2G"/>
+  <parameter name="platformVersion" value="9"/>
+  <parameter name="noReset" value="true"/>
+  <parameter name="autoGrantPermissions" value="true"/>
+  
+  <parameter name="rutaOutput" value="./output"/>
+    <classes>
+      <class name="run.Run"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
